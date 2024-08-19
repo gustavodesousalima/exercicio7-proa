@@ -14,6 +14,9 @@ body{
 
 
 #fundo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	background-color: #fff;
 	position:relative;
 	width:90%;
@@ -89,6 +92,8 @@ border-color:#F00;
 	}
 	
 #meio{
+	display: flex;
+	flex-direction: column;
 	position:relative;
 	width:60%;
 	height:450px;
@@ -97,7 +102,7 @@ border-color:#F00;
 	}
 	
 #banner{
-	background-image: url(/imagens/Imagem\ do\ WhatsApp\ de\ 2024-08-16\ à\(s\)\ 09.49.08_0bb25f73.jpg);
+	background-image: url(./imagens/Imagem\ do\ WhatsApp\ de\ 2024-08-16\ à\(s\)\ 09.49.08_0bb25f73.jpg);
 	position:relative;
 	width:20%;
 	height:450px;
@@ -140,7 +145,7 @@ border-color:#F00;
 }
 	
 #imagem{
-	background-image: url(/imagens/Imagem\ do\ WhatsApp\ de\ 2024-08-16\ à\(s\)\ 09.49.07_573ef120.jpg);
+	background-image: url(./imagens/Imagem\ do\ WhatsApp\ de\ 2024-08-16\ à\(s\)\ 09.49.07_573ef120.jpg);
 	position:relative;
 	width:95%;
 	margin:auto;
@@ -184,21 +189,21 @@ border-color:#F00;
 	}
 
 #fig1{
-	background-image: url(/imagens/DIV1.jpg);
+	background-image: url(./imagens/DIV1.jpg);
 	background-size:100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
 	
 #fig2{
-	background-image: url(/imagens/DIIV2.jpg);
+	background-image: url(./imagens/DIIV2.jpg);
 	background-size:100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
 	
 #fig3{
-	background-image: url(/imagens/div3.jpg);
+	background-image: url(./imagens/div3.jpg);
 	background-size:100%;
 	background-repeat: no-repeat;
 	background-size: cover;
