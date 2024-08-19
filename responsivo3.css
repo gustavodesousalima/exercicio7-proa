@@ -15,8 +15,8 @@ body{
 
 #fundo{
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
+	flex-direction: row;
 	background-color: #fff;
 	position:relative;
 	width:90%;
@@ -149,10 +149,10 @@ border-color:#F00;
 	position:relative;
 	width:95%;
 	margin:auto;
-	height:160px;
+	height:50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #CAA;
+	background-color: rgb(251, 251, 251);
 	background-size:100%;
 	margin-top:10px;
 	}
